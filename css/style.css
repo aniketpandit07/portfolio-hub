@@ -206,7 +206,7 @@ background-color: #5d4ba4;;
     width: 23%;
     height: 300px;
     background-size: cover;
-    transition: 1s ease-in;;
+    transition: 1s ease-in;
     
 }
 
@@ -284,10 +284,7 @@ background-color: #5d4ba4;;
     padding: 25px;
     
 }
-.sub-footer{
-    /* margin: 30px; */
-    
-}
+
 
 .sub-footer-container{
     justify-content: center;
