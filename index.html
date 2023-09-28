@@ -1,177 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PortfolioHub</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/mediaqueries.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mediaqueries.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+  <body>
     <!-- Nav Bar -->
-    <nav>
-        <div class="main-nav-bar container flex">
+    <nav class="top-nav">
+      <div class="main-nav container flex">
+        <a href="" class="logo">
+          <img src="./img/mylogo.png" alt="Logo" />
+        </a>
 
-            <a href="">
-                <img src="" alt="Logo">
-            </a>
-
-            <div class="Links">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Resume</a></li>
-                    <li><a href="#" class="primary-btn">Contact</a></li>
-                </ul>
-            </div>
+        <div class="nav-links">
+          <ul class="flex">
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#" class="primary-btn">Resume</a></li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <!-- Hero Section -->
-    <header>
-    <div class="container header flex">
+    <header class="view-height" id="home">
+      <div class="container header flex">
         <div class="text-area">
-            <h4>Hi I'm</h4>
-            <h1>Aniket Pandit</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos veritatis eveniet et debitis ex nostrum laudantium, voluptas incidunt ipsam at.</p>
-            <a href="#" class="primary-btn">Github</a>
-            <a href="#" class="secondary-btn">LinkedIn</a>
+          <h4>Hi I'm</h4>
+          <h1>Aniket Pandit</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+            veritatis eveniet et debitis ex nostrum laudantium, voluptas
+            incidunt ipsam at.
+          </p>
+          <a href="#" class="primary-btn">Github</a>
+          <a href="#" class="secondary-btn">LinkedIn</a>
         </div>
 
         <div class="img-area">
-            <img src="" alt="profile-pic">
+          <img src="./img/profile-pic.png" alt="profile-pic" />
         </div>
-    </div>
+      </div>
     </header>
 
     <!-- About Section -->
-    <section>
-        <div class="about-section container flex">
-
-            <div class="about-img">
-                <img src="" alt="Illustration">
-            </div>
-
-            <div class="about-text">
-                <h4>About Me</h4>
-                <h2>I'm a web developer</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore optio hic iste placeat, cumque eos ex. Deserunt eum unde nisi?</p>
-            </div>
+    <section class="view-height" id="about-me">
+      <div class="about-section container flex">
+        <div class="about-img">
+          <img
+            src="./img/rear-view-programmer-working-all-night-long.jpg"
+            class="about-image"
+            alt="Illustration"
+          />
         </div>
+
+        <div class="about-text" id="text-about">
+          <h4>About Me</h4>
+          <h2>I'm a web developer</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            optio hic iste placeat, cumque eos ex. Deserunt eum unde nisi?
+          </p>
+        </div>
+      </div>
     </section>
 
     <!-- Skills Section -->
-    <section class="skill-section">
-        <div class="container">
-            <h4>My Expertise</h4>
-
-            <div class="skills-area">
-                <a href="" class="skills-card">
-                    <h3>Frontend</h3> 
-                </a> 
-                <a href="" class="skills-card">
-                    <h3>Backend</h3> 
-                </a> 
-                <a href="" class="skills-card">
-                    <h3>Languages</h3> 
-                </a> 
-                <a href="" class="skills-card">
-                    <h3>Database</h3> 
-                </a>  
-            </div>
+    <section class="skill-section view-height">
+      <div class="container">
+        <div class="expertise">
+          <h4>My Expertise</h4>
         </div>
+        <div class="skills-area flex">
+          <a href="#" class="skills-card">
+            <h3>Frontend</h3>
+          </a>
+          <a href="" class="skills-card">
+            <h3>Backend</h3>
+          </a>
+          <a href="" class="skills-card">
+            <h3>Languages</h3>
+          </a>
+          <a href="" class="skills-card">
+            <h3>Database</h3>
+          </a>
+        </div>
+      </div>
     </section>
-    
+
     <!-- Project Section -->
-    <section class="project-section">
-        <div class="container">
-            <h4>Latest Work</h4>
-
-            <div class="project-img">
-                <img src="" alt="project1 img">
-            </div>
-
-            <div class="project-desc">
-                <h4>Web development work</h4>
-                <h3>To do List</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, provident!</p>
-                <a href="#" class="primary-btn">Github</a>
-            </div>
+    <section class="project-section" id="projects">
+      <div class="container">
+        <div class="project">
+          <h4>Latest Work</h4>
         </div>
+        <div class="latest-work flex">
+          <div class="project-img">
+            <img src="./img/UsabilityHub Clone.png" alt="project1 img" />
+          </div>
+
+          <div class="project-desc">
+            <h4>Web development work</h4>
+            <h3>To do List</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+              provident!
+            </p>
+            <a href="#" class="primary-btn">Github</a>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="project-section">
-        <div class="container">
-
-            <div class="project-img">
-                <img src="" alt="project2 img">
-            </div>
-
-            <div class="project-desc">
-                <h4>Web development work</h4>
-                <h3>Tic tac toe</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, provident!</p>
-                <a href="#" class="primary-btn">Github</a>
-            </div>
+      <div class="container">
+        <div class="latest-work flex" id="second-project">
+        <div class="project-img">
+          <img src="./img/UsabilityHub Clone.png" alt="project2 img" />
         </div>
+
+        <div class="project-desc">
+          <h4>Web development work</h4>
+          <h3>Tic tac toe</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+            provident!
+          </p>
+          <a href="#" class="primary-btn">Github</a>
+        </div>
+    </div>
+      </div>
     </section>
 
     <section class="project-section">
-        <div class="container">
-
-            <div class="project-img">
-                <img src="" alt="project3 img">
-            </div>
-
-            <div class="project-desc">
-                <h4>Web development work</h4>
-                <h3>Weather App</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, provident!</p>
-                <a href="#" class="primary-btn">Github</a>
-            </div>
+      <div class="container">
+        <div class="latest-work flex">
+        <div class="project-img">
+          <img src="./img/UsabilityHub Clone.png" alt="project3 img" />
         </div>
+
+        <div class="project-desc">
+          <h4>Web development work</h4>
+          <h3>Weather App</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit,
+            provident!
+          </p>
+          <a href="#" class="primary-btn">Github</a>
+        </div>
+    </div>
+      </div>
     </section>
 
     <!-- Call to action section -->
-    <section class="cta-section">
-        <div class="container cta-container">
-            <img src="" alt="small-image">
-            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, illum.</h4>
-            <h2>Interested working with me?</h2>
-            <a href="#" class="primary-btn">Email me</a>
-        </div>
+    <section class="cta-section" id="contact">
+      <div class="container cta-container flex">
+        <img src="./img/profile-pic.png" alt="small-image" />
+        <h4>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, illum.
+        </h4>
+        <h2>Interested working with me?</h2>
+        <a href="#" class="primary-btn">Email me</a>
+      </div>
     </section>
 
     <!-- Footer Section -->
     <footer class="footer-section">
-        <div class="main-nav-bar container flex">
+      <div class="main-nav container flex">
+        <a href="#home" class="logo">
+          <img src="./img/mylogo.png" alt="Logo" />
+        </a>
 
-            <a href="">
-                <img src="" alt="Logo">
-            </a>
-
-            <div class="Links">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Resume</a></li>
-                </ul>
-                <a href="#" class="hover-links"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#" class="hover-links"><i class="fa-brands fa-twitter"></i></a>
-                
-            </div>
+        <div class="nav-links">
+          <ul class="flex">
+            <li><a href="#" id="header">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Resume</a></li>
+            <a href="#" class="hover-links "
+            ><i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="#" class="hover-links"
+            ><i class="fa-brands fa-twitter"></i>
+          </a>
+          </ul>
+         
         </div>
+      </div>
     </footer>
 
     <!-- Sub footer section -->
+    <section class="sub-footer-section">
+
+    
     <div class="sub-footer">
-        <div class="container flex sub-footer-container">
-                <a href="#" class="hover-links">Privacy policy</a>
-                <a href="#" class="hover-links">Terms & condition</a>
-                <a href="#" class="hover-links">Security information</a>
-                <a href="#" class="hover-links"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#" class="hover-links"><i class="fa-brands fa-twitter"></i></a>
-        </div>
+      <div class="container flex sub-footer-container nav-links">
+        <a href="#" class="hover-links">Privacy policy</a>
+        <a href="#" class="hover-links">Terms & condition</a>
+        <a href="#" class="hover-links">Security information</a>
+        
+      </div>
     </div>
-</body>
+</section>
+  </body>
 </html>
