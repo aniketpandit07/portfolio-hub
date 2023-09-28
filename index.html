@@ -6,6 +6,7 @@
     <title>PortfolioHub</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/mediaqueries.css" />
+    <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   </head>
@@ -17,7 +18,7 @@
           <img src="./img/mylogo.png" alt="Logo" />
         </a>
 
-        <div class="nav-links">
+        <div class="nav-links" id="nav-links">
           <ul class="flex">
             <li><a href="#about-me">About Me</a></li>
             <li><a href="#projects">Projects</a></li>
@@ -25,6 +26,10 @@
             <li><a href="#" class="primary-btn">Resume</a></li>
           </ul>
         </div>
+        <!-- hamburger menu -->
+        <a href="#" class="nav-toggle" id="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
+      </a>
       </div>
     </nav>
 
@@ -172,13 +177,13 @@
 
     <!-- Footer Section -->
     <footer class="footer-section">
-      <div class="main-nav container flex">
+      <div class="main-nav container flex footer-container">
         <a href="#home" class="logo">
           <img src="./img/mylogo.png" alt="Logo" />
         </a>
 
-        <div class="nav-links">
-          <ul class="flex">
+        <div class="nav-links ">
+          <ul class="flex footer-links">
             <li><a href="#" id="header">Home</a></li>
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Resume</a></li>
@@ -207,5 +212,6 @@
       </div>
     </div>
 </section>
+
   </body>
 </html>
