@@ -104,6 +104,12 @@ background-color: #5d4ba4;;
     color: #2cc44ac8;
 }
 
+.hover-links{
+
+        color: var(--primary-text-color);
+        transition: 0.25s ease-out;
+}
+
 /* Nav bar  */
 .top-nav{
     background-image:url(../img/asset\ 32.png);
@@ -139,22 +145,15 @@ background-color: #5d4ba4;;
     width: 200px;
 }
 
-/* hamburger menu */
-.nav-toggle{
-    display: none;
-}
 /* header section */
 .header{
     justify-content:space-between;
     gap: 100px;
 }
 
-/* .view-height{
-    height: 70vh;
-} */
 
 .text-area h1{
-    margin-top: 20px;
+    margin-top: 15px;
     font-weight: 500;
   }
   
@@ -193,6 +192,10 @@ background-color: #5d4ba4;;
 .about-text h2{
     font-weight:500 ;
     margin-top: 20px;
+}
+
+#p-tag{
+    margin-top: 10px;
 }
 
 /* Skills Section */
@@ -252,6 +255,9 @@ background-color: #5d4ba4;;
     align-items: center;
 }
 
+.project-desc h3{
+    font-weight: 500;
+}
 .project-desc p{
     margin-bottom: 30px;
 }
@@ -278,16 +284,24 @@ background-color: #5d4ba4;;
 }
 .cta-container h4{
     color: darkgray;
+    text-align: center;
 }
 .cta-container h4, h2{
     font-weight: 500;
     margin-bottom: 30px;
 }
 
+
+
 /* Footer section */
 .footer-section{
     margin-top: 60px;
     margin-bottom: 30px;
+}
+
+.footer-nav{
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 /* sub footer section */
