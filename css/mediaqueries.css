@@ -92,6 +92,10 @@
         text-align: center;
       }
 
+      .about-text h2{
+        text-align: center;
+      }
+
       .about-image{
         width: 350px;
         padding: 20px;

@@ -192,6 +192,7 @@ background-color: #5d4ba4;;
 .about-text h2{
     font-weight:500 ;
     margin-top: 20px;
+    text-align: start;
 }
 
 #p-tag{
@@ -229,7 +230,7 @@ background-color: #5d4ba4;;
 }
 
 .skills-card .skills-names{
-    padding-block: 20px;
+    padding: 20px;
 }
     
 .expertise {
