@@ -178,9 +178,10 @@
         gap: 30px;
     }
 
-    .secondary-btn{
+    .secondary-btn, .primary-btn{
       display: inline-block;
-      width: 100%;
+      width: 75%;
+      margin-top: 20px;
     }
   
       .skills-card{
@@ -193,7 +194,7 @@
     }
 
     .project-desc{
-      margin-bottom: 50px;
+      margin-bottom: 0px;
     }
     .logo img{
         width: 120px;

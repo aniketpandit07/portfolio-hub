@@ -4,7 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 /* Global declaration */
 :root{
     --primary-text-color: #ffffff;;
@@ -249,11 +251,12 @@ background-color: #5d4ba4;;
 
 .latest-work{
     justify-content: space-between;
-    gap: 60px;
+    
 }
 
 .project-desc{
     align-items: center;
+   
 }
 
 .project-desc h3{
@@ -266,6 +269,7 @@ background-color: #5d4ba4;;
 #second-project{
     flex-direction: row-reverse;
 }
+
 
 /* cta section */
 .cta-section{
